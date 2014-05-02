@@ -7,7 +7,7 @@ Site utilizes:
 * **Bootstrap 3** for responsive navigation (based off Bryan McBride's Bootleaf template)
 * **Leaflet** for map
 * **SQLite** for storage of user contributed trail issues
-* geojson for storage of trail data
+* **geojson** for storage of trail data
 
 ## installation
 
@@ -19,3 +19,5 @@ Site utilizes:
 6. change colors of data (or not)
 7. change basemaps (or not)
 8. share with the world!
+
+Don't have trail data in the *geojson* format, no worries, head over to [geojson.io](www.geojson.io) to import or draw your trails, then export to local or save to [Github](www.github.com).
