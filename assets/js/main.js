@@ -9,7 +9,7 @@ var woodcutOSM = L.tileLayer("http://{s}.tiles.mapbox.com/v3/examples.xqwfusor/{
   subdomains: ["a", "b", "c", "d"],
   attribution: 'Tiles <a href="http://www.mapbox.com" target="_blank">Mapbox</a>| Map data (c) <a href="http://www.openstreetmap.org/" target="_blank">OpenStreetMap</a>'
 });
-var mapboxTer = L.tileLayer("http://{s}.tiles.mapbox.com/v3/examples.map-9ijuk24y/{z}/{x}/{y}.png", {
+var mapboxTer = L.tileLayer("http://{s}.tiles.mapbox.com/v3/examples.map-i875mjb7/{z}/{x}/{y}.png", {
   maxZoom: 21,
   subdomains: ["a", "b", "c", "d"],
   attribution: 'Tiles <a href="http://www.mapbox.com" target="_blank">Mapbox</a>| Map data (c) <a href="http://www.openstreetmap.org/" target="_blank">OpenStreetMap</a>'
