@@ -4,17 +4,17 @@ issues = new L.MarkerClusterGroup({spiderfyOnMaxZoom: true, showCoverageOnHover:
 newIssue = new L.LayerGroup();
 
 /* Basemap Layers */
-var woodcutOSM = L.tileLayer("http://{s}.tiles.mapbox.com/v3/examples.xqwfusor/{z}/{x}/{y}.png", {
+var woodcutOSM = L.tileLayer("//{s}.tiles.mapbox.com/v3/examples.xqwfusor/{z}/{x}/{y}.png", {
+  maxZoom: 21,
+  subdomains: ["a", "b", "c", "d"],
+  attribution: 'Tiles <a href="http//www.mapbox.com" target="_blank">Mapbox</a>| Map data (c) <a href="http://www.openstreetmap.org/" target="_blank">OpenStreetMap</a>'
+});
+var mapboxTer = L.tileLayer("//{s}.tiles.mapbox.com/v3/examples.map-i875mjb7/{z}/{x}/{y}.png", {
   maxZoom: 21,
   subdomains: ["a", "b", "c", "d"],
   attribution: 'Tiles <a href="http://www.mapbox.com" target="_blank">Mapbox</a>| Map data (c) <a href="http://www.openstreetmap.org/" target="_blank">OpenStreetMap</a>'
 });
-var mapboxTer = L.tileLayer("http://{s}.tiles.mapbox.com/v3/examples.map-i875mjb7/{z}/{x}/{y}.png", {
-  maxZoom: 21,
-  subdomains: ["a", "b", "c", "d"],
-  attribution: 'Tiles <a href="http://www.mapbox.com" target="_blank">Mapbox</a>| Map data (c) <a href="http://www.openstreetmap.org/" target="_blank">OpenStreetMap</a>'
-});
-var mapboxSat = L.tileLayer("http://{s}.tiles.mapbox.com/v3/examples.map-2k9d7u0c/{z}/{x}/{y}.png", {
+var mapboxSat = L.tileLayer("//{s}.tiles.mapbox.com/v3/examples.map-2k9d7u0c/{z}/{x}/{y}.png", {
   maxZoom: 17,
   subdomains: ["a", "b", "c", "d"],
   attribution: 'Tiles <a href="http://www.mapbox.com" target="_blank">Mapbox</a>| Map data (c) <a href="http://www.openstreetmap.org/" target="_blank">OpenStreetMap</a>'
