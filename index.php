@@ -18,8 +18,8 @@
   <link rel="stylesheet" href="assets/leaflet-markercluster/MarkerCluster.css">
   <link rel="stylesheet" href="assets/leaflet-markercluster/MarkerCluster.Default.css">
   <link rel="stylesheet" href="assets/css/main.css">
-  <link rel="apple-touch-icon" href="assets/img/favicon-152.png">
-  <link rel="shortcut icon" sizes="196x196" href="assets/img/favicon-196.png">
+  <link rel="apple-touch-icon" href="assets/img/favicon.ico">
+  <link rel="shortcut icon" sizes="196x196" href="assets/img/favicon.ico">
 
   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
