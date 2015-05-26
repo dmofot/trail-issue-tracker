@@ -11,9 +11,9 @@
   <meta name="author" content="David Todd">
   <title>Bay Circuit Trail</title>
 
-  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
-  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdn.leafletjs.com/leaflet-0.7.2/leaflet.css">
   <link rel="stylesheet" href="assets/leaflet-locatecontrol/L.Control.Locate.css">
   <link rel="stylesheet" href="assets/leaflet-markercluster/MarkerCluster.css">
   <link rel="stylesheet" href="assets/leaflet-markercluster/MarkerCluster.Default.css">
@@ -23,8 +23,8 @@
 
   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
   </head>
 
@@ -104,7 +104,7 @@
                   <ul class="list-group">
                     <li class="list-group-item">Mobile-friendly responsive site navigation with <a href="http://getbootstrap.com/">Bootstrap 3</a></li>
                     <li class="list-group-item">Lightweight mapping with <a href="http://leafletjs.com/" target="_blank">Leaflet</a></li>
-                    <li class="list-group-item">Multi-layer feature search with auto-complete using <a href="http://twitter.github.io/typeahead.js/" target="_blank">typeahead.js</a></li>
+                    <li class="list-group-item">Multi-layer feature search with auto-complete using <a href="https://twitter.github.io/typeahead.js/" target="_blank">typeahead.js</a></li>
                   </ul>
                 </div>
               </div>
@@ -256,10 +256,10 @@
       </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
 
-    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
     <script src="assets/typeahead/typeahead.bundle.min.js"></script>
-    <script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
+    <script src="//cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
     <script src="assets/leaflet-hash/leaflet-hash.js"></script>
     <script src="assets/leaflet-locatecontrol/L.Control.Locate.js"></script>
     <script src="assets/leaflet-markercluster/leaflet.markercluster.js"></script>
