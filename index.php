@@ -15,8 +15,8 @@
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css">
   <link rel="stylesheet" href="assets/leaflet-locatecontrol/L.Control.Locate.min.css">
-  <link rel="stylesheet" href="assets/leaflet-markercluster/MarkerCluster.css">
-  <link rel="stylesheet" href="assets/leaflet-markercluster/MarkerCluster.Default.css">
+  <link rel="stylesheet" href="//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.css">
+  <link rel="stylesheet" href="//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.Default.css">
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="apple-touch-icon" href="assets/img/favicon.ico">
   <link rel="shortcut icon" sizes="196x196" href="assets/img/favicon.ico">
@@ -263,7 +263,7 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
     <script src="assets/leaflet-hash/leaflet-hash.js"></script>
     <script src="assets/leaflet-locatecontrol/L.Control.Locate.min.js"></script>
-    <script src="assets/leaflet-markercluster/leaflet.markercluster.js"></script>
+    <script src="//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/leaflet.markercluster.js"></script>
     <script src="assets/js/main.js"></script>
   </body>
 </html>
