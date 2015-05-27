@@ -166,12 +166,6 @@ var lc = L.control.locate({
     maxZoom: 16}
 }).addTo(map);
 
-map.on('startfollowing', function() {
-  map.on('dragstart', lc.stopFollowing);
-}).on('stopfollowing', function() {
-  map.off('dragstart', lc.stopFollowing);
-});
-
 /* Highlight search box text on click */
 $("#searchbox").click(function () {
   $(this).select();
