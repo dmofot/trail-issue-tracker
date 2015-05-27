@@ -12,7 +12,7 @@
   <title>Bay Circuit Trail</title>
 
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.2/leaflet.css">
   <link rel="stylesheet" href="assets/leaflet-locatecontrol/L.Control.Locate.css">
   <link rel="stylesheet" href="assets/leaflet-markercluster/MarkerCluster.css">
